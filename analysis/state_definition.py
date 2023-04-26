@@ -3,7 +3,6 @@ import os
 
 # data
 df = pd.read_excel('./markov_veri.xlsx')
-
 class Program:
     def __init__(self, data):
         self.df = data
@@ -32,8 +31,8 @@ class Program:
             for j in range(25):
                 for k in range(25):
                     for l in range(25):
-                        state = [i, j, k, l] 
-                        state_dict[str(state)] = state_number 
+                        state = [i, j, k, l]
+                        state_dict[str(state)] = state_number
                         state_number+=1
         return state_dict
     def get_speed_state(self,speed):
@@ -114,7 +113,12 @@ class Program:
     # create program
 
 
-program = Program(df.head())
+    
+
+
+
+
+program = Program(df)
 
 # start program
 program.run()
@@ -122,11 +126,4 @@ program.run()
 # result
 res = program.res()
 # save to excel
-program.add_data_to_excel('output.xlsx')
-
-
-
-
-
-
-
+program.add_data_to_excel('state_def.xlsx')
