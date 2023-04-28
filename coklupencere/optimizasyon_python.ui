@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>971</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>250</y>
+     <width>821</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>Optimum Senaryo</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Senaryo 2</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Senaryo 3</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Senaryo 4</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Senaryo 5</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Senaryo 6</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>Senaryo 7</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>RES Kurulu Güç</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>GES Kurulu Güç</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Toplam Satış</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Batarya Kapasitesi</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Batarya Kullanım Ömrü</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Toplam Maliyet</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Yatırım Kararı</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>90</y>
+     <width>20</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_depolama">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>141</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="text">
+    <string>Depolama </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_sonuc">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>180</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(85, 0, 255);
+background-color: rgb(255, 255, 0);
+</string>
+   </property>
+   <property name="text">
+    <string>Sonuç</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>120</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ortalama Birim Enerji Satış Fiyatı Giriniz ($)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>120</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>80</y>
+     <width>221</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(Hibrit santrale enerji depolama ekleme tercihi)</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../enerjisa-logo.qrc"/>
+ </resources>
+ <connections/>
+</ui>

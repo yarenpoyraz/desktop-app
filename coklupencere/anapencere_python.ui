@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>704</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+border-image: url(:/newPrefix/10121616457778.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>481</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Shell Dlg 2</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>120</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 0, 0);
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string>Santral</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>240</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string>Panel Açısı</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_turbin">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>200</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>ArrowCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/newPrefix/orig.webp);
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.495 rgba(255, 255, 255, 255), stop:0.505 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="filename">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>280</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/newPrefix/orig.webp);</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_santral">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>110</y>
+       <width>141</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/newPrefix/orig.webp);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Santral Seçiniz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Yeni</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BANDIRMA I SANTRALİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BANDIRMA II SANTRALİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BALIKESİR SANTRALİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ÇANAKKALE SANTRALİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>EFLATUN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ERCİYES SANTRALİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>HİPOKRAT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KARABÜK SANTRALİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TUFANBEYLİ SANTRALİ</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="filename_2">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>320</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/newPrefix/orig.webp);</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>160</y>
+       <width>47</width>
+       <height>13</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="lineWidth">
+      <number>4</number>
+     </property>
+     <property name="text">
+      <string>Şehir</string>
+     </property>
+     <property name="scaledContents">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_sehir">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>160</y>
+       <width>141</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="accessibleName">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/newPrefix/orig.webp);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>İl Seçiniz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ADANA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ADIYAMAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AFYONKARAHİSAR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AĞRI</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AMASYA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ANKARA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ANTALYA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ARTVİN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AYDIN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BALIKESİR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BİLECİK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BİNGÖL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BİTLİS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BOLU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BURDUR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BURSA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ÇANAKKALE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ÇANKIRI</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ÇORUM</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DENİZLİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DİYARBAKIR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>EDİRNE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ELAZIĞ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ERZİNCAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ERZURUM</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ESKİŞEHİR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GAZİANTEP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GİRESUN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>GÜMÜŞHANE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>HAKKARİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>HATAY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ISPARTA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MERSİN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>İSTANBUL</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>İZMİR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KARS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KASTAMONU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KAYSERİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KIRKLARELİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KIRŞEHİR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KOCAELİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KONYA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KÜTAHYA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MALATYA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MANİSA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KAHRAMANMARAŞ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MARDİN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MUĞLA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MUŞ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NEVŞEHİR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>NİĞDE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ORDU</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>RİZE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SAKARYA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SAMSUN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SİİRT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SİNOP</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>SİVAS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TEKİRDAĞ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TOKAT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TRABZON</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>TUNCELİ</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ŞANLIURFA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>UŞAK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>VAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YOZGAT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ZONGULDAK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>AKSARAY</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BAYBURT</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KARAMAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KIRIKKALE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BATMAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ŞIRNAK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>BARTIN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ARDAHAN</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>IĞDIR</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>YALOVA</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KARABÜK</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>KİLİS</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>OSMANİYE</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>DÜZCE</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>200</y>
+       <width>141</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string>RES Kurulu Güç (varsa)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_turbin_2">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>240</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/newPrefix/orig.webp);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>380</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>10</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-image: url(:/newPrefix/orig.webp);
+border-color:black;</string>
+     </property>
+     <property name="text">
+      <string>Ekle</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="browse">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>280</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-image: url(:/newPrefix/orig.webp);
+
+border-color:black;</string>
+     </property>
+     <property name="text">
+      <string>Browse</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="browse_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>320</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+border-image: url(:/newPrefix/orig.webp);
+
+border-color:black;</string>
+     </property>
+     <property name="text">
+      <string>Browse</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>10</y>
+       <width>201</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 italic 14pt &quot;MS Shell Dlg 2&quot;;
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>SANTRAL TASARIMI</string>
+     </property>
+    </widget>
+    <zorder>label_2</zorder>
+    <zorder>label_4</zorder>
+    <zorder>filename</zorder>
+    <zorder>comboBox_santral</zorder>
+    <zorder>filename_2</zorder>
+    <zorder>label_5</zorder>
+    <zorder>comboBox_sehir</zorder>
+    <zorder>label_6</zorder>
+    <zorder>lineEdit_turbin_2</zorder>
+    <zorder>lineEdit_turbin</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>browse</zorder>
+    <zorder>browse_2</zorder>
+    <zorder>label</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>704</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDosya">
+    <property name="title">
+     <string>Seçenekler</string>
+    </property>
+    <addaction name="havadurumu"/>
+    <addaction name="uretimtahmini"/>
+    <addaction name="optimizasyon"/>
+   </widget>
+   <widget class="QMenu" name="menuYard_m">
+    <property name="title">
+     <string>Yardım</string>
+    </property>
+    <addaction name="bizeulasin"/>
+   </widget>
+   <addaction name="menuDosya"/>
+   <addaction name="menuYard_m"/>
+  </widget>
+  <action name="havadurumu">
+   <property name="text">
+    <string>Hava Durumu Tahmini</string>
+   </property>
+  </action>
+  <action name="uretimtahmini">
+   <property name="text">
+    <string>Üretim Tahmini</string>
+   </property>
+  </action>
+  <action name="optimizasyon">
+   <property name="text">
+    <string>Optimizasyon</string>
+   </property>
+  </action>
+  <action name="bizeulasin">
+   <property name="text">
+    <string>Bize Ulaşın</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../res.qrc"/>
+  <include location="../ress.qrc"/>
+ </resources>
+ <connections/>
+</ui>
