@@ -1,0 +1,9 @@
+1) Browse hava durumu excel file (markov_veri)
+2) Kullanıcı bu veriyi yükledikten sonra markovbirleştirilmiş.py çalışması gerekiyor.
+3) Bu kodun state_def oluşturuldu. Yani kodun çıktısı yazdırıldı.
+4) state_def.xlsx oluşturuktan sonra bunu input olarak markovbirleştirilmiş.py kodunun devamında çalışacak.
+5) Kodun devamı çalıştığında state_defnew.xlsx dosyası oluşuyor.
+
+6) Combined_ML_Model.py sinde GES_ML.xlsx ve RESML.xlsx zaten yüklü olması gerekiyor. Kullanıcı yüklemeyecek.
+7) Combined_ML_Model.py devamında state_defnew.xlsx dosyası kullanılacak.
+8) Daha sonra CombinedPrediction.xlsx oluşacak.
